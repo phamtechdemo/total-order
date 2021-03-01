@@ -3,8 +3,12 @@ namespace Tests\Models;
 use PHPUnit\Framework\TestCase;
 use App\Models\Product;
 
+
 class ProductTest extends TestCase
 {
+    /**
+     * Test set price product.
+     */
     public function testSetPriceProduct()
     {
         $product = new Product();
@@ -13,6 +17,9 @@ class ProductTest extends TestCase
         $this->assertEquals($value, $product->getPrice());
     }
 
+    /**
+     * Test set weight product.
+     */
     public function testSetWeightProduct()
     {
         $product = new Product();
@@ -21,6 +28,9 @@ class ProductTest extends TestCase
         $this->assertEquals($value, $product->getWeight());
     }
 
+    /**
+     * Test set width product.
+     */
     public function testSetWidthProduct()
     {
         $product = new Product();
@@ -29,6 +39,9 @@ class ProductTest extends TestCase
         $this->assertEquals($value, $product->getWidth());
     }
 
+    /**
+     * Test set height product.
+     */
     public function testSetHeightProduct()
     {
         $product = new Product();
@@ -37,6 +50,9 @@ class ProductTest extends TestCase
         $this->assertEquals($value, $product->getHeight());
     }
 
+    /**
+     * Test set depth product.
+     */
     public function testSetDepthProduct()
     {
         $product = new Product();

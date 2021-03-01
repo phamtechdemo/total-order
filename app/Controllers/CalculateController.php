@@ -1,6 +1,9 @@
 <?php
 namespace App\Controllers;
 
+/**
+ * This class calculate.
+ */
 class CalculateController
 {
     const DIMENSION_COEFFICIENT = 0.001;
@@ -15,6 +18,7 @@ class CalculateController
     }
 
     /**
+     * Get gross price with list product.
      * @return int|mixed|string
      */
     public function getGrossPrice()
@@ -47,6 +51,7 @@ class CalculateController
 
 
     /**
+     * Calculate price item.
      * @param $price
      * @param $shippingFee
      * @param $insuranceFree
@@ -58,6 +63,7 @@ class CalculateController
     }
 
     /**
+     * Get max shipping fee.
      * @param $feeByDimension
      * @param $feeByWeight
      * @return mixed
@@ -69,6 +75,7 @@ class CalculateController
 
 
     /**
+     * Get fee by dimension.
      * @param $width
      * @param $height
      * @param $depth
@@ -82,6 +89,7 @@ class CalculateController
 
 
     /**
+     * Get fee by weight.
      * @param $weight
      * @param $weightCoefficient
      * @return float|int
@@ -93,6 +101,7 @@ class CalculateController
 
 
     /**
+     * Get fee by insurance.
      * @param $price
      * @param $minPrice
      * @param $insuranceCoefficient

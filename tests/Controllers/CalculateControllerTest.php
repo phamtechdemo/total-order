@@ -7,7 +7,7 @@ use App\Models\Product;
 class CalculateControllerTest extends TestCase
 {
     /**
-     *
+     * Test calculate get gross price.
      */
     public function testGetGrossPrice()
     {
@@ -20,7 +20,7 @@ class CalculateControllerTest extends TestCase
 
 
     /**
-     *
+     * Test calculate get item price.
      */
     public function testItemPrice()
     {
@@ -29,7 +29,7 @@ class CalculateControllerTest extends TestCase
     }
 
     /**
-     *
+     * Test calculate get shipping fee price.
      */
     public function testShippingFee()
     {
@@ -38,7 +38,7 @@ class CalculateControllerTest extends TestCase
     }
 
     /**
-     *
+     * Test calculate get fee by dimension price.
      */
     public function testFeeByDimension()
     {
@@ -47,7 +47,7 @@ class CalculateControllerTest extends TestCase
     }
 
     /**
-     *
+     * Test calculate get fee by weight price.
      */
     public function testFeeByWeight()
     {
@@ -56,7 +56,7 @@ class CalculateControllerTest extends TestCase
     }
 
     /**
-     *
+     * Test calculate get fee by insurance price.
      */
     public function testFeeByInsurance()
     {

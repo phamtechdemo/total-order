@@ -47,6 +47,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Get price product.
      * @return float
      */
     public function getPrice()
@@ -56,6 +57,7 @@ class Product implements ProductInterface
 
 
     /**
+     * Get weight product.
      * @return float
      */
     public function getWeight()
@@ -64,6 +66,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Get width product.
      * @return float
      */
     public function getWidth()
@@ -72,6 +75,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Get height product.
      * @return float
      */
     public function getHeight()
@@ -80,6 +84,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Get depth product.
      * @return float
      */
     public function getDepth()
@@ -88,6 +93,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Set price product.
      * @param $_price
      */
     public function setPrice($_price)
@@ -96,6 +102,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Set weight product.
      * @param $_weight
      */
     public function setWeight($_weight)
@@ -104,6 +111,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Set width product.
      * @param $_width
      */
     public function setWidth($_width)
@@ -112,6 +120,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Set Height product.
      * @param $_height
      */
     public function setHeight($_height)
@@ -120,6 +129,7 @@ class Product implements ProductInterface
     }
 
     /**
+     * Set depth product.
      * @param $_depth
      */
     public function setDepth($_depth)
